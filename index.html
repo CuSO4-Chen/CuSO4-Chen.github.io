@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Dingwei Chen</title>
+<meta name="description" content="Dingwei Chen — Ph.D. student at CUHK. Research on agentic reinforcement learning, LLM agents, hallucination alleviation, and knowledge editing.">
+
+<!-- 标签页图标（emoji 📚，换图标见 README） -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<!-- 侧栏图标：Font Awesome 6（邮箱 / GitHub / 位置）+ Academicons（Google Scholar 官方标） -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ======================= MASTHEAD ======================= -->
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <nav class="greedy-nav">
+      <ul class="visible-links">
+        <li class="masthead__menu-item masthead__menu-item--lg"><span class="brand-inert" tabindex="-1">Dingwei Chen's Homepage</span></li>
+        <li class="masthead__menu-item"><a href="#about">About Me</a></li>
+        <li class="masthead__menu-item"><a href="#publications">Publications</a></li>
+        <li class="masthead__menu-item"><a href="#experience">Experience</a></li>
+        <li class="masthead__menu-item"><a href="#education">Education</a></li>
+        <li class="masthead__menu-item"><a href="#service">Service</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<div class="wrapper">
+
+  <!-- ======================= SIDEBAR ======================= -->
+  <div class="sidebar sticky">
+    <div class="author__avatar">
+      <img src="images/profile.jpg" alt="Dingwei Chen">
+    </div>
+    <div class="author__content">
+      <h3 class="author__name">Dingwei Chen<br><span style="font-size:.8em">陈定纬</span></h3>
+      <p class="author__bio">
+        Ph.D. Student<br>
+        The Chinese University of Hong Kong
+      </p>
+    </div>
+    <ul class="author__urls social-icons">
+      <li><a href="mailto:cuso4cdw@gmail.com"><i class="fa-solid fa-fw fa-envelope" aria-hidden="true"></i> cuso4cdw@gmail.com</a></li>
+      <li><a href="https://scholar.google.com.hk/citations?user=MH2E99AAAAAJ&amp;hl=zh-CN&amp;oi=ao"><i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i> Google Scholar</a></li>
+      <li><a href="https://github.com/CuSO4-Chen"><i class="fa-brands fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><i class="fa-solid fa-fw fa-location-dot" aria-hidden="true"></i> Hong Kong</li>
+    </ul>
+  </div>
+
+  <!-- ======================= MAIN ======================= -->
+  <article class="page">
+    <div class="page__inner-wrap">
+      <section class="page__content">
+
+        <!-- ---------- BIO ---------- -->
+        <p id="about">
+          I am a first-year Ph.D. student in the Department of SE&amp;EM at <strong>The Chinese University of Hong Kong</strong>, supervised by
+          Prof. <a href="https://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/">Kam-Fai Wong</a> and Prof. <a href="https://www.se.cuhk.edu.hk/people/academic-staff/prof-liang-bin/">Bin Liang</a>.
+          Before this, I obtained my M.Eng. from <strong>Sun Yat-sen University</strong>, where I was supervised by
+          Prof. <a href="https://ai.smbu.edu.cn/info/1251/1391.htm">Chengming Li</a> and Prof. <a href="https://minyang.me/">Min Yang</a>.
+          I also worked as a research intern at <strong>Tencent Inc</strong>, with the Hunyuan Machine Learning Platform and the Data Computing Platform.
+        </p>
+        <p>
+          My research interests are on <strong>natural language processing and large language models</strong>.
+          Recent works center on <strong>agent post-training</strong> and <strong>agent harness</strong>. Beyond these areas,
+          I previously explored <strong>hallucination alleviation</strong> and <strong>knowledge editing</strong> in LLMs.
+        </p>
+        <ul class="bio-points">
+          <li>
+            <strong>Agent Post-training:</strong> Reinforcement learning for multi-turn, tool-using agents —
+            policy optimization (<a class="cite" href="https://aclanthology.org/2026.acl-long.1106/">ACL'26</a>),
+            process reward/credit assignment (<a class="cite" href="https://aclanthology.org/2026.acl-long.1106/">ACL'26</a>, <a class="cite" href="https://arxiv.org/abs/2605.06200">arXiv'26</a>),
+            and efficient tool-calling behavior (<a class="cite" href="https://arxiv.org/abs/2605.26952">EMNLP'26</a>), etc.
+          </li>
+          <li>
+            <strong>Agent Harness:</strong> Self-evolving skills for agents, where skills are acquired,
+            curated, and consolidated (<a class="cite" href="https://arxiv.org/abs/2604.27660">arXiv'26</a>). Self-evolving execution loops, where an agent
+            refines its own tool-use workflow from past trajectories.
+          </li>
+        </ul>
+        <p>
+          I'm always excited to discuss potential collaborations. Feel free to communicate with me if you are interested in connecting :)
+        </p>
+
+        <!-- ---------- NEWS ---------- -->
+        <h1><span class="sec-emoji" aria-hidden="true">📣</span>News</h1>
+        <ul>
+          <li><strong>2026.08: 🎉</strong> One paper is accepted by <strong>EMNLP 2026</strong>.</li>
+          <li><strong>2026.04: 🎉</strong> Three papers are accepted by <strong>ACL 2026</strong>, one of them is seleceted as an <strong>Oral</strong> presentation.</li>
+          <li><strong>2025.08: 🎉</strong> One paper is accepted by <strong>EMNLP 2025</strong>.</li>
+        </ul>
+
+        <!-- ---------- PUBLICATIONS ---------- -->
+        <h1 id="publications"><span class="sec-emoji" aria-hidden="true">📄</span>Publications</h1>
+        <p style="color:#7a8288;font-size:.9em;margin-bottom:0">
+          * denotes co-first authors.
+          See <a href="https://scholar.google.com.hk/citations?user=MH2E99AAAAAJ&amp;hl=zh-CN&amp;oi=ao">Google Scholar</a> for the full list.
+        </p>
+
+        <!-- ===== 复制整个 .paper-box 新增一篇；缩略图放 images/pubs/ ===== -->
+        <div class="paper-box">
+          <div class="paper-box-image">
+            <div>
+              <div class="badge">EMNLP 2026 Findings</div>
+              <img src="images/pubs/akbe.png" alt="Method overview">
+            </div>
+          </div>
+          <div class="paper-box-text">
+            <p class="paper-title">Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement</p>
+            <p class="paper-authors"><span class="me">Dingwei Chen</span>, Zefang Zong, Zhipeng Ma, Leo Luo, Yang Li, Chengming Li, Peng Chen, Jie Jiang</p>
+            <p class="paper-links"><a class="pbtn" href="https://arxiv.org/abs/2605.26952"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Paper</a><a class="pbtn" href="https://github.com/CuSO4-Chen/AKBE"><i class="fa-brands fa-github" aria-hidden="true"></i>Code</a></p>
+          </div>
+        </div>
+
+        <div class="paper-box">
+          <div class="paper-box-image">
+            <div>
+              <div class="badge">Preprint</div>
+              <img src="images/pubs/a2tgpo.png" alt="Method overview">
+            </div>
+          </div>
+          <div class="paper-box-text">
+            <p class="paper-title">A²TGPO: Agentic Turn-Group Policy Optimization with Adaptive Turn-level Clipping</p>
+            <p class="paper-authors"><span class="me">Dingwei Chen</span>, Zefang Zong, Zhipeng Ma, Leo Luo, Yang Li, Chengming Li, Peng Chen, Jie Jiang</p>
+            <p class="paper-links"><a class="pbtn" href="https://arxiv.org/abs/2605.06200"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Paper</a><a class="pbtn" href="https://github.com/CuSO4-Chen/A-TGPO"><i class="fa-brands fa-github" aria-hidden="true"></i>Code</a></p>
+          </div>
+        </div>
+
+        <div class="paper-box">
+          <div class="paper-box-image">
+            <div>
+              <div class="badge">ACL 2026</div>
+              <img src="images/pubs/at2po.png" alt="Method overview">
+            </div>
+          </div>
+          <div class="paper-box-text">
+            <p class="paper-title">AT²PO: Agentic Turn-based Policy Optimization via Tree Search</p>
+            <p class="paper-authors">Zefang Zong*, <span class="me">Dingwei Chen</span>*, Yang Li, Qi Yi, Bo Zhou, Chengming Li, Bo Qian, Peng Chen, Jie Jiang</p>
+            <p class="paper-links"><a class="pbtn" href="https://aclanthology.org/2026.acl-long.1106/"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Paper</a><a class="pbtn" href="https://github.com/CuSO4-Chen/ATPO"><i class="fa-brands fa-github" aria-hidden="true"></i>Code</a></p>
+          </div>
+        </div>
+
+        <div class="paper-box">
+          <div class="paper-box-image">
+            <div>
+              <div class="badge oral">ACL 2026 Oral</div>
+              <img src="images/pubs/charm.png" alt="Method overview">
+            </div>
+          </div>
+          <div class="paper-box-text">
+            <p class="paper-title">Act-Adaptive Margin: Dynamically Calibrating Reward Models for Subjective Ambiguity</p>
+            <p class="paper-authors">Feiteng Fang*, <span class="me">Dingwei Chen</span>*, Xiang Huang*, Ting-En Lin, Yuchuan Wu, Xiong Liu, Jing Ye, Ziqiang Liu, Haonan Zhang, Hamid Alinejad-Rokny, Min Yang, Yongbin Li</p>
+            <p class="paper-links"><a class="pbtn" href="https://aclanthology.org/2026.acl-long.710/"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Paper</a><a class="pbtn" href="https://github.com/calubkk/AAM"><i class="fa-brands fa-github" aria-hidden="true"></i>Code</a></p>
+          </div>
+        </div>
+
+        <div class="paper-box">
+          <div class="paper-box-image">
+            <div>
+              <div class="badge">EMNLP 2025</div>
+              <img src="images/pubs/pli.png" alt="Method overview">
+            </div>
+          </div>
+          <div class="paper-box-text">
+            <p class="paper-title">Expanding before Inferring: Enhancing Factuality in Large Language Models through Premature Layers Interpolation</p>
+            <p class="paper-authors"><span class="me">Dingwei Chen</span>, Ziqiang Liu, Feiteng Fang, Chak Tou Leong, Shiwen Ni, Ahmadreza Argha, Hamid Alinejad-Rokny, Min Yang, Chengming Li</p>
+            <p class="paper-links"><a class="pbtn" href="https://aclanthology.org/2025.emnlp-main.645/"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Paper</a><a class="pbtn" href="https://github.com/CuSO4-Chen/PLI"><i class="fa-brands fa-github" aria-hidden="true"></i>Code</a></p>
+          </div>
+        </div>
+
+        <div class="paper-box">
+          <div class="paper-box-image">
+            <div>
+              <div class="badge">ACL 2024</div>
+              <img src="images/pubs/forgetting.png" alt="Method overview">
+            </div>
+          </div>
+          <div class="paper-box-text">
+            <p class="paper-title">Forgetting before Learning: Utilizing Parametric Arithmetic for Knowledge Updating in Large Language Models</p>
+            <p class="paper-authors">Shiwen Ni*, <span class="me">Dingwei Chen</span>*, Chengming Li, Xiping Hu, Ruifeng Xu, Min Yang</p>
+            <p class="paper-links"><a class="pbtn" href="https://aclanthology.org/2024.acl-long.310/"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Paper</a></p>
+          </div>
+        </div>
+
+        <div class="paper-box">
+          <div class="paper-box-image">
+            <div>
+              <div class="badge">Preprint</div>
+              <img src="images/pubs/lowerlayer.png" alt="Method overview">
+            </div>
+          </div>
+          <div class="paper-box-text">
+            <p class="paper-title">Lower Layers Matter: Alleviating Hallucination via Multi-Layer Fusion Contrastive Decoding with Truthfulness Refocused</p>
+            <p class="paper-authors"><span class="me">Dingwei Chen</span>, Feiteng Fang, Shiwen Ni, Feng Liang, Xiping Hu, Ahmadreza Argha, Hamid Alinejad-Rokny, Min Yang, Chengming Li</p>
+            <p class="paper-links"><a class="pbtn" href="https://arxiv.org/abs/2408.08769"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Paper</a></p>
+          </div>
+        </div>
+
+        <h2 class="svc-head opub-head">Other Publications</h2>
+        <ul class="opub-list">
+          <li>
+            <span class="venue-inline ">ACL 2026 Findings</span>
+            <span class="opub-title"><a href="https://aclanthology.org/2026.findings-acl.218/">Finding RELIEF: Shaping Reasoning Behavior without Reasoning Supervision via Belief Engine</a></span>
+            <span class="opub-authors">Chak Tou Leong, <span class="me">Dingwei Chen</span>, Heming Xia, Qingyu Yin, Sunbowen Lee, Jian Wang, Wenjie Li</span>
+          </li>
+          <li>
+            <span class="venue-inline ">KDD 2026</span>
+            <span class="opub-title"><a href="https://arxiv.org/abs/2508.03668">CTR-Sink: Attention Sink for Language Models in Click-Through Rate Prediction</a></span>
+            <span class="opub-authors">Zixuan Li, Binzong Geng, Jing Xiong, Yong He, Yuxuan Hu, Jian Chen, <span class="me">Dingwei Chen</span>, Xiyu Chang, Ngai Wong, Liang Zhang, Linjian Mo, Chengming Li, Chuan Yuan, Zhenan Sun</span>
+          </li>
+          <li>
+            <span class="venue-inline review">Preprint</span>
+            <span class="opub-title"><a href="https://arxiv.org/abs/2604.27660">From Context to Skills: Can Language Models Learn from Context Skillfully?</a></span>
+            <span class="opub-authors">Shuzheng Si, Haozhe Zhao, Yu Lei, Qingyi Wang, <span class="me">Dingwei Chen</span>, Zhitong Wang, Zhenhailong Wang, Kangyang Luo, Zheng Wang, Gang Chen, Fanchao Qi, Minjia Zhang, Maosong Sun</span>
+          </li>
+
+        </ul>
+
+        <!-- ---------- EXPERIENCE ---------- -->
+        <h1 id="experience"><span class="sec-emoji" aria-hidden="true">💼</span>Experience</h1>
+        <ul class="cv-list">
+          <!-- ===== 复制整个 <li class="cv-item"> 新增一条 ===== -->
+          <li class="cv-item">
+            <img class="cv-logo" src="images/logos/hunyuan.png" alt="Tencent Hunyuan">
+            <div class="cv-body">
+              <div class="cv-head">
+                <span class="cv-org">Tencent Hunyuan ML Platform &amp; Data Computing Platform</span>
+                <span class="cv-date">2025.06 &ndash; 2026.06</span>
+              </div>
+              <div class="cv-role">Research Intern, Natural Language Processing</div>
+            </div>
+          </li>
+
+          <li class="cv-item">
+            <img class="cv-logo" src="images/logos/deeplang.png" alt="DeepLang AI">
+            <div class="cv-body">
+              <div class="cv-head">
+                <span class="cv-org">DeepLang AI</span>
+                <span class="cv-date">2025.03 &ndash; 2025.05</span>
+              </div>
+              <div class="cv-role">Algorithm Intern</div>
+            </div>
+          </li>
+
+          <li class="cv-item">
+            <img class="cv-logo" src="images/logos/siat.png" alt="CAS SIAT">
+            <div class="cv-body">
+              <div class="cv-head">
+                <span class="cv-org">Shenzhen Institute of Advanced Technology, CAS</span>
+                <span class="cv-date">2023.07 &ndash; 2026.06</span>
+              </div>
+              <div class="cv-role">Research Assistant</div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- ---------- EDUCATION ---------- -->
+        <h1 id="education"><span class="sec-emoji" aria-hidden="true">🎓</span>Education</h1>
+        <ul class="cv-list">
+          <!-- ===== 复制整个 <li class="cv-item"> 新增一条 ===== -->
+          <li class="cv-item">
+            <img class="cv-logo" src="images/logos/cuhk.png" alt="CUHK">
+            <div class="cv-body">
+              <div class="cv-head">
+                <span class="cv-org">The Chinese University of Hong Kong</span>
+                <span class="cv-date">2026.09 &ndash; present</span>
+              </div>
+              <div class="cv-role">Ph.D. in Systems Engineering and Engineering Management</div>
+              <div class="cv-note">Supervised by Prof. Kam-Fai Wong and Prof. Bin Liang</div>
+            </div>
+          </li>
+
+          <li class="cv-item">
+            <img class="cv-logo" src="images/logos/sysu.png" alt="Sun Yat-sen University">
+            <div class="cv-body">
+              <div class="cv-head">
+                <span class="cv-org">Sun Yat-sen University</span>
+                <span class="cv-date">2023.09 &ndash; 2026.06</span>
+              </div>
+              <div class="cv-role">M.Eng. in Electronic Information</div>
+              <div class="cv-note">Supervised by Prof. Chengming Li and Prof. Min Yang</div>
+            </div>
+          </li>
+
+          <li class="cv-item">
+            <img class="cv-logo" src="images/logos/swufe.png" alt="SWUFE">
+            <div class="cv-body">
+              <div class="cv-head">
+                <span class="cv-org">Southwestern University of Finance and Economics</span>
+                <span class="cv-date">2019.09 &ndash; 2023.06</span>
+              </div>
+              <div class="cv-role">B.Mgmt. in Information Management and Information Systems (Honors class)</div>
+              <div class="cv-note">Supervised by Prof. Yu Zhao</div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- ---------- SERVICE ---------- -->
+        <h1 id="service"><span class="sec-emoji" aria-hidden="true">🤝</span>Academic Service</h1>
+
+        <h2 class="svc-head">Conference Reviewer</h2>
+        <ul class="svc-list">
+          <li>NLP Communities: Reviewer of ACL 2026/2025, EMNLP 2026/2025</li>
+          <li>ML Communities: Reviewer of AAAI 2027/2026, NeurIPS 2026</li>
+        </ul>
+
+        <h2 class="svc-head">Teaching Assistant</h2>
+        <ul class="svc-list">
+          <!-- TODO: 课程名 + 学校 + 学期 -->
+        </ul>
+
+      </section>
+    </div>
+  </article>
+</div>
+
+<footer class="page__footer">
+  © <span id="year">2026</span> Dingwei Chen
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

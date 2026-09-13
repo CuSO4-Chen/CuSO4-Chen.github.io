@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# 原始证件照（页面用的是裁切后的 images/profile.jpg，原图无需公开）
+images/IMG_7145.JPG
+
+# 未使用的占位图
+images/pub-placeholder.png
+
+# 未采用的备选设计稿（推上去会被公开访问 /v2-serif-timeline/）
+v2-serif-timeline/
