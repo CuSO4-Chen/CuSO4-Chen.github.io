@@ -9,3 +9,6 @@ images/pub-placeholder.png
 
 # 未采用的备选设计稿（推上去会被公开访问 /v2-serif-timeline/）
 v2-serif-timeline/
+
+# 本地维护说明，不纳入公开仓库
+README.md
