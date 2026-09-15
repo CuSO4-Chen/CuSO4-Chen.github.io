@@ -162,10 +162,6 @@ html { scroll-behavior: smooth; }
 /* Academicons 无 fa-fw，补一个等宽类保持图标对齐 */
 .ai-fw { display: inline-block; width: 1.25em; text-align: center; }
 
-/* 访问计数徽章 */
-.visit-count { margin-top: 14px; padding-top: 12px; border-top: 1px solid #f2f3f3; }
-.visit-count img { height: 20px; display: block; }
-@media only screen and (max-width: 900px) { .visit-count img { margin: 0 auto; } }
 
 /* ---------------- content typography ---------------- */
 .page__content p,
