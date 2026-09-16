@@ -252,6 +252,7 @@ html { scroll-behavior: smooth; }
 .paper-box .paper-box-text p { margin: 0 0 .5em; }
 
 .badge.oral { background-color: #a8310a; }
+.badge.review { background-color: #7a8288; }  /* Preprint：与 .venue-inline.review 同色 */
 .badge {
   position: absolute;
   bottom: 100%;              /* 贴在图片上边缘之上，不占流式高度 */
