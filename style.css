@@ -120,15 +120,15 @@ html { scroll-behavior: smooth; }
 .author__bio { text-align: left; }
 .sidebar > .author__urls { text-align: left; }
 .author__avatar img {
-  max-width: 120px;
+  max-width: 144px;
   min-width: 60px;
   width: 100%;
   margin: 0 auto;        /* 在侧栏内居中 */
-  height: auto;          /* 竖版 3:4 左右，照片已裁到贴合人物轮廓 */
+  height: auto;          /* 竖版，按原图比例，不裁切 */
   display: block;
-  padding: 4px;                /* 四周一点点内白边，照片不贴边框 */
+  padding: 5px;                /* 四周一点点内白边，照片不贴边框 */
   background: #fff;
-  border-radius: 8px;          /* 圆角 */
+  border-radius: 9px;          /* 圆角 */
   border: 1px solid #e4e5e5;
 }
 .author__name {
@@ -376,7 +376,7 @@ html { scroll-behavior: smooth; }
     padding: 2em 0 1em;
     text-align: center;
   }
-  .author__avatar img { max-width: 120px; }
+  .author__avatar img { max-width: 144px; }
   .author__urls { display: inline-block; text-align: left; }
   .page { padding-left: 0; }
 
